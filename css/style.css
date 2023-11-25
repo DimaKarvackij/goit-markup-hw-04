@@ -720,8 +720,13 @@ address {
 
 .footer-container {
     display: flex;
-    margin-right: 120px;
+
     align-items: baseline;
+}
+
+.logo-footer {
+    margin-right: 120px;
+
 }
 
 .p-footer {
