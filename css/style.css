@@ -404,7 +404,7 @@ address {
     justify-content: center;
     align-items: center;
     margin-top: 8px;
-
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo-networks {
@@ -741,11 +741,14 @@ address {
 .svg-footer {
     display: flex;
     gap: 16px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .svg-footer-ul {
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .a-footer-svg {
