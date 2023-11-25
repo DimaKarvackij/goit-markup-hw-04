@@ -748,7 +748,7 @@ address {
     height: 40px;
 }
 
-.a-footer {
+.a-footer-svg {
     width: 100%;
     height: 100%;
     background-color: #4d5ae5;
@@ -759,8 +759,8 @@ address {
 
 }
 
-.a-footer:hover,
-.a-footer:focus {
+.a-footer-svg:hover,
+.a-footer-svg:focus {
     background-color: #31d0aa
 }
 
