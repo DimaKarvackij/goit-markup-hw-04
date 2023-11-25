@@ -64,13 +64,34 @@ address {
 }
 
 /*================HEADER================*/
+
+.page-nav.menu::after {
+
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    display: block;
+    width: 100%;
+    background-color: #404bbf;
+    border-radius: 2px;
+    height: 4px;
+}
+
 .page-nav {
     display: flex;
     align-items: center;
 
 }
 
+.page-header {
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    ;
+}
 
+.menu {
+    position: relative;
+    color: #404bbf;
+}
 
 .logo-header {
     color: #2e2f42;
@@ -171,12 +192,14 @@ address {
             rgba(46, 47, 66, 0.70)),
         url('../images/images/people-office_2.jpg');
     background-size: cover;
-    max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
 
 }
 
+.section-page {
+    max-width: 1440px;
+}
 
 .button {
     cursor: pointer;
@@ -682,6 +705,20 @@ address {
     line-height: 1.5;
     /* 150% */
     letter-spacing: 0.02em;
+}
+
+.footer-container {
+    display: flex;
+    margin-right: 120px
+}
+
+.p-footer {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 /*==============///FOOTER///================*/
