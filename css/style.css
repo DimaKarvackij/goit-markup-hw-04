@@ -65,7 +65,7 @@ address {
 
 /*================HEADER================*/
 
-.page-nav.idt::after {
+.idt::after {
 
     position: absolute;
     left: 0;
@@ -75,6 +75,10 @@ address {
     background-color: #404bbf;
     border-radius: 2px;
     height: 4px;
+}
+
+.idt {
+    colore: #404bbf;
 }
 
 .idt {
