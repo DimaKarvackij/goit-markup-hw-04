@@ -65,7 +65,7 @@ address {
 
 /*================HEADER================*/
 
-.page-nav.menu::after {
+.page-nav.idt::after {
 
     position: absolute;
     left: 0;
@@ -79,12 +79,10 @@ address {
 
 .idt {
     position: relative;
-    color: #404bbf;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
-.estate {
+.contacts {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -387,7 +385,7 @@ address {
 
 
 
-.logo-images-icons {
+.logo-networks {
 
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
