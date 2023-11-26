@@ -98,6 +98,10 @@ idrt {}
 
 .idt {}
 
+.menu-items:first-child {
+    color: #404bbf;
+}
+
 .idt {
     position: relative;
     color: #404bbf;
