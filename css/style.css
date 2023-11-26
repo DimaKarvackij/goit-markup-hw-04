@@ -64,47 +64,28 @@ address {
 }
 
 /*================HEADER================*/
-
-/**/
-
-.menu {
-    color: #404bbf;
-}
-
-.menu-items {
-    color: #404bbf;
-}
-
-.idt {
+.current {
+    position: relative;
     color: #404bbf;
 }
 
 
 
-/**/
-idrt {}
-
-.idt::after {
+.idt.current::after {
+    content: '';
     position: absolute;
     left: 0;
     bottom: -1px;
     display: block;
     width: 100%;
-    background-color: #404bbf;
-    border-radius: 2px;
     height: 4px;
-    content: '';
+    border-radius: 2px;
+    background-color: #404bbf;
 }
 
 
-.menu-items:first-child {
+.menu .current:first-child {
     color: #404bbf;
-}
-
-.idt:first-child {
-    position: relative;
-    color: #404bbf;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts {
@@ -120,6 +101,7 @@ idrt {}
 .page-header {
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
     ;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .menu {
@@ -137,6 +119,14 @@ idrt {}
 }
 
 .idrt {
+    color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    /* 116.667% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     margin-right: 76px;
 }
 
@@ -144,17 +134,13 @@ idrt {}
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
-
+    color: #2e2f42;
 }
 
 .menu-conct {
     display: flex;
 
 
-}
-
-.page-header {
-    border-bottom: 1px solid #e7e9fc
 }
 
 .items:hover,
@@ -175,20 +161,9 @@ idrt {}
     line-height: 1.17
 }
 
-.idt {
-    color: #2e2f42;
-}
+.idt {}
 
-.idrt {
-    color: #4d5ae5;
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 1.17;
-    /* 116.667% */
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-}
+.idrt {}
 
 .menu-link {
     background-color: #FFFFFF;
@@ -233,6 +208,7 @@ idrt {}
 
 .section-page {
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .button {
@@ -652,12 +628,12 @@ idrt {}
 
 .overflow-image:hover .overflow {
     transform: translateY(0%);
-    background: url(<path-to-image>), lightgray -25.026px 0px / 125% 100% no-repeat;
 }
 
 .overflow-image {
     position: relative;
     overflow: hidden;
+
 }
 
 .painting {
@@ -681,11 +657,10 @@ idrt {}
 .overflow {
     color: #f4f4fd;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
     padding: 40px 32px;
 }
 
-
+.overflow-image:hover {}
 
 /*==============///Section 4///================*/
 
@@ -693,6 +668,10 @@ idrt {}
 
 .p-footer {
     padding: 100px 0;
+}
+
+.mig-footer {
+    padding-bottom: 16px;
 }
 
 .p-footer {
