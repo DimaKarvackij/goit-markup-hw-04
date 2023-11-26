@@ -64,9 +64,25 @@ address {
 }
 
 /*================HEADER================*/
-.idrt {
-    colore: #404bbf;
+
+/**/
+
+.menu {
+    color: #404bbf;
 }
+
+.menu-items {
+    color: #404bbf;
+}
+
+.idt {
+    color: #404bbf;
+}
+
+
+
+/**/
+idrt {}
 
 .idt::after {
     position: absolute;
